@@ -11,7 +11,7 @@
                 <div id="site-logo" class="clearfix">
                     <div id="site-logo-inner">
                         <a href="home-slider-full-screen.html" title="Construction" rel="home" class="main-logo">
-                            <img src="assets/img/logo-light.png" alt="Construction" data-retina="assets/img/logo-light@2x.png" data-width="200" data-height="30">
+                            <img src="assets/img/logo-light.png" alt="Construction" data-retina="<?php echo base_url() ?>assets/img/logo-light@2x.png" data-width="200" data-height="30">
                         </a>
                     </div>
                 </div><!-- /#site-logo -->
@@ -71,67 +71,3 @@
                         <li class="menu-item"><a href="page-contact.html">Contact</a></li>
                     </ul>
                 </nav><!-- /#main-nav -->
-
-                <div class="nav-top-cart-wrapper">
-                    <a class="nav-cart-trigger" href="#">
-                        <span class="fa fa-shopping-cart cart-icon">
-                            <span class="shopping-cart-items-count">3</span>
-                        </span>
-                    </a>
-
-                    <div class="nav-shop-cart">
-                        <div class="widget_shopping_cart_content">
-                            <ul class="cart_list product_list_widget ">
-                                <li class="mini_cart_item">
-                                    <a href="#" class="remove" title="Remove this item">×</a>
-                                    <a href="#">
-                                        <img width="160" height="160" src="assets/img/shop-item.png" alt="image">
-                                        Shop Item 01
-                                    </a>
-                                                
-                                    <span class="quantity">1 × <span class="woocommerce-Price-amount amount">
-                                        <span class="woocommerce-Price-currencySymbol">$</span>200.00</span>
-                                    </span>
-                                </li>
-                                <li class="mini_cart_item">
-                                    <a href="#" class="remove" title="Remove this item">×</a>
-                                    <a href="#">
-                                        <img width="160" height="160" src="assets/img/shop-item.png" alt="image">
-                                        Shop Item 02
-                                    </a>
-                                                
-                                    <span class="quantity">1 × <span class="woocommerce-Price-amount amount">
-                                        <span class="woocommerce-Price-currencySymbol">$</span>70.00</span>
-                                    </span>
-                                </li>
-                                <li class="mini_cart_item">
-                                    <a href="#" class="remove" title="Remove this item">×</a>
-                                    <a href="#">
-                                        <img width="160" height="160" src="assets/img/shop-item.png" alt="image">
-                                        Shop Item 03
-                                    </a>
-                                                
-                                    <span class="quantity">1 × <span class="woocommerce-Price-amount amount">
-                                        <span class="woocommerce-Price-currencySymbol">$</span>30.00</span>
-                                    </span>
-                                </li>
-                            </ul><!-- /.product_list_widget -->
-
-                            <p class="total">
-                                <strong>Subtotal:</strong>
-                                <span class="woocommerce-Price-amount amount">
-                                    <span class="woocommerce-Price-currencySymbol">$</span>300.00
-                                </span>
-                            </p>
-        
-                            <p class="buttons">
-                                <a href="#" class="wprt-button small">View Cart</a>
-                                <a href="#" class="wprt-button small checkout">Checkout</a>
-                            </p>
-                        </div>
-                    </div>
-                </div><!-- /.nav-top-cart-wrapper -->
-            </div>
-        </div><!-- /#site-header-inner -->
-    </header><!-- /#site-header -->
-</div><!-- /#site-header-wrap -->
